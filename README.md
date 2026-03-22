@@ -1,10 +1,9 @@
-# SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams
+# SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams (ICLR 2026)
 This repository contains the source code for our paper:
 
 [SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams](https://openreview.net/forum?id=lPMPFeioCZ)<br/>
-ICLR 2026<br/>
 Zhuoheng Gao, Yihao Li, Jiyao Zhang, Rui Zhao, Tong Wu, Hao Tang, Zhaofei Yu, Hao Dong, Guozhang Chen, Tiejun Huang<br/>
-National Key Laboratory for Multimedia Information Processing, School of Computer Science, Peking University<br>
+School of Computer Science, Peking University<br>
 
 <img src="SpikeStereoNet.png">
 
@@ -58,7 +57,7 @@ Note that the units of the focal length are _pixels_ not millimeters. (cx1-cx0) 
 
 ## Citations
 
-If you find this code useful in your research, please consider citing our paper.
+If you find our work useful in your research, please consider citing our paper.
 
 ```
 @inproceedings{gao2026spikestereonet,
@@ -70,3 +69,6 @@ If you find this code useful in your research, please consider citing our paper.
 }
 ```
 
+# Acknowledgements
+
+This project refers to [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), and . We thank the original authors for their excellent works.
