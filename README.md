@@ -85,3 +85,6 @@ If you find our work useful in your research, please consider citing our paper.
 
 This project refers to [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [DREDS](https://github.com/PKU-EPIC/DREDS) and [Spike2Flow
 ](https://github.com/ruizhao26/Spike2Flow). We thank the original authors for their excellent works.
+
+## License
+This project is released under the MIT license. See [LICENSE](LICENSE) for additional details.
