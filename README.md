@@ -5,7 +5,7 @@ This repository contains the source code for our paper:
 Zhuoheng Gao, Yihao Li, Jiyao Zhang, Rui Zhao, Tong Wu, Hao Tang, Zhaofei Yu, Hao Dong, Guozhang Chen, Tiejun Huang<br/>
 School of Computer Science, Peking University<br>
 
-(./SpikeStereoNet.pdf)
+![Pipeline](./SpikeStereoNet.pdf)
 
 ## Environments
 
@@ -40,7 +40,8 @@ To evaluate/train SpikeStereoNet, you will need to download the required dataset
 │   │   └── ...
 │   └── Test
 │   │   └── ...
-├── Real
+└── Real
+    └── ...
 ```
 
 ## Evaluation
