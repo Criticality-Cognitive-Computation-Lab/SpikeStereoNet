@@ -5,8 +5,7 @@ This repository contains the source code for our paper:
 Zhuoheng Gao, Yihao Li, Jiyao Zhang, Rui Zhao, Tong Wu, Hao Tang, Zhaofei Yu, Hao Dong, Guozhang Chen, Tiejun Huang<br/>
 School of Computer Science, Peking University<br>
 
-<img src="SpikeStereoNet.png">
-
+(./SpikeStereoNet.pdf)
 
 ## Environments
 
@@ -27,11 +26,21 @@ To evaluate/train SpikeStereoNet, you will need to download the required dataset
 
 ```Shell
 ├── Synthetic
-    ├── Train
-        ├── spike_l
-        ├── spike_r
-        ├── depth
-    ├── Test
+│   ├── Train
+│   │   ├── scene_id
+│   │   │   ├── spike_l
+│   │   │   │   ├── frame_id_spike_l.dat
+│   │   │   │   └── ...
+|   │   │   ├── spike_r
+│   │   │   │   ├── frame_id_spike_r.dat
+│   │   │   │   └── ...
+|   │   │   ├── depth
+│   │   │   │   ├── frame_id_depth.exr
+│   │   │   │   └── ...
+│   │   └── ...
+│   └── Test
+│   │   └── ...
+├── Real
 ```
 
 ## Evaluation
@@ -71,4 +80,5 @@ If you find our work useful in your research, please consider citing our paper.
 
 # Acknowledgements
 
-This project refers to [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), and . We thank the original authors for their excellent works.
+This project refers to [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [DREDS](https://github.com/PKU-EPIC/DREDS) and [Spike2Flow
+](https://github.com/ruizhao26/Spike2Flow). We thank the original authors for their excellent works.
