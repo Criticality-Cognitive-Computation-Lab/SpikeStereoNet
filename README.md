@@ -63,9 +63,7 @@ python train_stereo.py --batch_size 8 --train_iters 16 --valid_iters 32 --num_st
 
 The camera intrinsics and camera baseline are known, disparity predictions can be converted to depth values using
 
-$depth = \dfrac{focal \_ length \times baseline}{|disparity + (c_{x1} - c_{x0})|}$
-
-$aaa_&#8203;bb$
+$depth = \dfrac{focal length \times baseline}{|disparity + (c_{x1} - c_{x0})|}$
 
 Note that the units of the focal length are _pixels_ not millimeters. $(c_{x1} - c_{x0})$ is the $x$-difference of principal points.
 
