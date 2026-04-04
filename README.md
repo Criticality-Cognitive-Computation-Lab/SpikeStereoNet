@@ -5,7 +5,7 @@ This repository contains the source code for our paper:
 Zhuoheng Gao, Yihao Li, Jiyao Zhang, Rui Zhao, Tong Wu, Hao Tang, Zhaofei Yu, Hao Dong, Guozhang Chen, Tiejun Huang<br/>
 School of Computer Science, Peking University<br>
 
-![Pipeline](./SpikeStereoNet.pdf)
+![Pipeline](./SpikeStereoNet.png)
 
 ## Environments
 
