@@ -65,7 +65,7 @@ The camera intrinsics and camera baseline are known, disparity predictions can b
 
 $depth = \dfrac{focal \_ length \times baseline}{|disparity + (c_{x1} - c_{x0})|}$
 
-$aaa&#95;bb$
+$`aaa_bb`$
 
 Note that the units of the focal length are _pixels_ not millimeters. $(c_{x1} - c_{x0})$ is the $x$-difference of principal points.
 
