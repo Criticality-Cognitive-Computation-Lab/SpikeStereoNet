@@ -12,11 +12,11 @@ School of Computer Science, Peking University<br>
 You can choose cudatoolkit version to match your server. The code is tested on PyTorch 1.10.1+cu113.
 
 ```bash
-conda create -n spikestereonet python==3.9
+conda create -n spikestereonet python==3.11
 conda activate spikestereonet
-# You can choose the PyTorch version you like, we recommand version >= 1.10.1
+# You can choose the PyTorch version you like, we recommand version >= 2.4.0
 # For example
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 
