@@ -79,6 +79,16 @@ If you find our work useful in your research, please consider citing our paper.
     year={2026},
     url={https://openreview.net/forum?id=lPMPFeioCZ}
 }
+
+@misc{gao2026spikestereonet,
+      title={SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams}, 
+      author={Zhuoheng Gao and Yihao Li and Jiyao Zhang and Rui Zhao and Tong Wu and Hao Tang and Zhaofei Yu and Hao Dong and Guozhang Chen and Tiejun Huang},
+      year={2026},
+      eprint={2505.19487},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.19487}, 
+}
 ```
 
 ## Acknowledgements
