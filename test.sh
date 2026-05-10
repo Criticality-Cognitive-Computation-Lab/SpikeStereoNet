@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python evaluate_stereo.py --dataset gs1b-synth-spike --restore_ckpt ./checkpoints/spikestereonet-synthetic.pth

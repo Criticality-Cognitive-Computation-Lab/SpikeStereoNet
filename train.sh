@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train_stereo.py --batch_size 4 --num_steps 100000 --train_datasets gs1b-synth-spike
