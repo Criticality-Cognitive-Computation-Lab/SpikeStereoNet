@@ -1,7 +1,7 @@
 # SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams (ICLR 2026)
 This repository contains the source code for our paper:
 
-[SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams](https://openreview.net/forum?id=lPMPFeioCZ)<br/>
+[SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams](https://openreview.net/pdf?id=lPMPFeioCZ)<br/>
 Zhuoheng Gao, Yihao Li, Jiyao Zhang, Rui Zhao, Tong Wu, Hao Tang, Zhaofei Yu, Hao Dong, Guozhang Chen, Tiejun Huang<br/>
 School of Computer Science, Peking University<br>
 
