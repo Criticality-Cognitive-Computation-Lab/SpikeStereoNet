@@ -25,9 +25,7 @@ class Gs1bSynthSpikeDataset(data.Dataset):
         spike1_list = sorted( glob(osp.join(root, f'*/synthetic/spike_l/*.dat')) )
         spike2_list = sorted( glob(osp.join(root, f'*/synthetic/spike_r/*.dat')) )
         depth_list = sorted( glob(osp.join(root, f'*/synthetic/depth/*.exr')))
-
-        depth_list = [depth_list[i] for i in range(len(depth_list)) if (i % 256) != 0]
-
+        
         np.random.seed(42)
         if split != 'train':
             length = len(spike1_list)
