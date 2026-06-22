@@ -21,8 +21,8 @@ pip install -r requirements.txt
 ```
 
 ## Required Data
-To evaluate/train SpikeStereoNet, you will need to download the required datasets. 
-<!-- * --> 
+To evaluate/train SpikeStereoNet, you will need to download the required datasets from [Hugging Face].
+(https://huggingface.co/datasets/gzh0814/SpikeStereoNet/tree/main)
 
 ```Shell
 ├── Synthetic
