@@ -45,7 +45,9 @@ To evaluate/train SpikeStereoNet, you will need to download the required dataset
 
 ## Evaluation
 
-To evaluate a trained model on a Test set (e.g. Synthetic), run
+The pre-trained model can be downloaded from [Hugging Face](https://huggingface.co/gzh0814/SpikeStereoNet/resolve/main/spikestereonet-synthetic.pth).
+
+To evaluate a trained model on the Test set (e.g. Synthetic), run
 ```Shell
 python evaluate_stereo.py --restore_ckpt models/spikestereonet-synthetic.pth --dataset gs1b-synth-spike
 ```
